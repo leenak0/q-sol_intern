@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" charset="utf-8" src="timeout.js"></script>
+  </head>
+  <body>
+
+      <div class="login-form">
+        <h1>Mypage</h1>
+        
+        <h2 id="timer"></h2>
+        <input type="button" class="logbtn" onclick="refreshTimer();" value="로그인연장">
+        <script>
+          function refreshTimer() {
+            location.reload(); //새로고침(로그인연장)
+            alert("로그인이 연장되었습니다.");
+          }
+        </script>
+
+      </div>
+
+      <script type="text/javascript">
+      $(".txtb input").on("focus",function(){
+        $(this).addClass("focus");
+      });
+
+      $(".txtb input").on("blur",function(){
+        if($(this).val() == "")
+        $(this).removeClass("focus");
+      });
+
+      </script>
+
+
+  </body>
+</html>
