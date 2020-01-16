@@ -1,0 +1,3 @@
+BMS test 프로그램 설치 및 설치매뉴얼 검토
+login 기능 추가(login_practice/todo.txt 참고)
+BMS test (결함리포트 확인)
