@@ -1,0 +1,7 @@
+NEW: 자바로 html화면까지 출력 가능한지
+
+TODO: 원격으로(주소로) 접속할 때도 다운로드 가능하도록(다운로드 팝업 뜨게)
+TODO: BMS 통계 REPORT 다운로드시 BMS 현황 REPORT sheet도 함께 생성
+TODO: 셀 스타일 메타데이터(xml or json)로 만들기 -> API용
+
+다음 회의: 월요일 or 화요일
