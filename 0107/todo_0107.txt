@@ -1,3 +1,4 @@
 jetty 설치 및 공부
-vscode setting
-hichart.js 공부
+VSCode 설치 및 세팅
+hichart.js 조사 및 분석
+BMS 코드 분석

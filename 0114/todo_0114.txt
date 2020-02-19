@@ -1,3 +1,12 @@
-Jetty(JSP, 서블릿) / 웹소켓 & Http 통신 방식 에 대해 공부
-서블릿bms ppt 참고하여 StartServlet.java 코드 분석
-gzip 사용하는 법 찾아보기
+  1. BMS 셀 데이터 그래프 수정 및 실행시간 측정(파일 별도 첨부)
+   - DB 모든 셀 테이블에 6개월 데이터 삽입
+   - 파일 수정
+
+  2. Jetty(JSP, 서블릿) / 웹소켓 & Http 통신 방식 에 대해 공부
+   - Jetty : 웹서버 + 서블릿 컨테이너(JSP+서블릿)
+   - 서블릿 : 클라이언트의 요청을 처리하고 그 결과를 다시 클라이언트에게 전송   ex)로그인
+   - 서블릿 컨테이너 : 서블릿을 관리해주는 컨테이너   ex)톰캣
+   - Http 통신 : Client의 요청(Request)이 있을때만 서버가 응답(Response)하여 해당 정보를 전송하고 곧바로 연결을 종료하는 방식
+   - Socket 통신 : Server와 Client가 특정 포트를 통해 실시간으로 양방향 통신을 하는 방식
+
+  3. 서블릿bms ppt 참고하여 StartServlet.java 코드 분석

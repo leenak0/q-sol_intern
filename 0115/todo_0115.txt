@@ -1,7 +1,5 @@
-그래프 속도 측정시 두가지 케이스 추가할 것
-1) 웹소켓 방식을 Http request/response 방식으로 변경하여 속도 측정
-2) 위 1)번에 gzip 옵션을 적용하여 속도 측정
-(웹서버의 경우 content-encoding: gzip 이라는 옵션이 있음. 이것을 Jetty에 설정하여 테스트)
+  1. 웹소켓 HTTP 비교
+   - 웹소켓, AJAX, HTTP 특징과 차이점에 대해 조사
 
-서블릿 추가(참고 https://kyun2.tistory.com/40)하여 DB가져오는 부분 코드를 넣고 2) 테스트 실행
-->StartServlet.java 코드 참고
+  2. StartServlet.java 코드 분석 및 서블릿 추가
+   - servlet 폴더 및 테스트 서블릿 추가
