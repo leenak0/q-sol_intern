@@ -1,0 +1,4 @@
+  1. 엑셀 양식 xml로 저장 후 자바에서 파싱하여 사용하기
+   - 셀 스타일도 xml 폼으로 저장해놓고 파싱해 입력하는 방식으로 변경
+   - CELL 통계 REPORT xml 폼 데이터 추가
+   - BMS 현황 REPORT 완료/ CELL 통계 REPORT 진행중
